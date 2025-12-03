@@ -44,6 +44,40 @@ FROM sales_data
 GROUP BY month
 ORDER BY month;
 
+📈 Insights Summary
+-- Total Sales Revenue is $165
+-- Total quantity sold is 8
+-- the Top 5 Products are: 
+# Shoes ($80 and $40 respectively), 
+# Shirt ($25), 
+# Bag ($20).
+-- Top 5 Customer Revenue are:
+# John Mark ($40)
+# Mark Benson ($40)
+# Susan John ($40)
+# Sarah James ($20)
+# Peter Andrew ($20)
+-- Monthly Sales Trend is $165
+-- Daily Sales Trend are: 60, 40, 40, 25.
+-- Revenue by Product are 
+# Shoe 80
+# 40
+# 25
+# 20
+-- Revenue by Customer are:
+# John Mark $40
+# Mark Benson $40
+# Susan John $40
+# Sarah James $25
+# Peter Andrew $20
+-- Customer Purchase frequently:
+# John Mark - 1
+# Sarah James - 1
+# Mark Benson - 1
+# Peter Andrew - 1
+# Susan John - 1
+
+
 🧾 Conclusion
 This project demonstrates my growing skills in:
 Data analysis using SQL
